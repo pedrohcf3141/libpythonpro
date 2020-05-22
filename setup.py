@@ -97,8 +97,8 @@ def find_package_data(
 PACKAGE = "libpythonpro"
 NAME = PACKAGE
 DESCRIPTION = "Módulo para exemplificar construção de projetos Python no curso PyTools"
-AUTHOR = "Pedro Henrique Cerqueira Fernandes"
-AUTHOR_EMAIL = "pedrohcf@gmail.com"
+AUTHOR = "Renzo Nuccitelli"
+AUTHOR_EMAIL = "renzo@python.pro.br"
 URL = "https://github.com/pedrohcf3141/libpythonpro"
 VERSION = __import__(PACKAGE).__version__
 
@@ -121,7 +121,7 @@ setup(
         "License :: OSI Approved :: GNU Affero General Public License v3 or later (AGPLv3+)",
         "Operating System :: OS Independent",
         "Programming Language :: Python",
-        "Programming Language :: Python :: 3.6",
+        "Programming Language :: Python :: 3.7",
         "Framework :: Pytest",
     ],
     install_requires=[
